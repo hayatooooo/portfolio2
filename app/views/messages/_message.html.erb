@@ -1,0 +1,7 @@
+<div class="message">
+  <p><%= "#{message.user.name} : #{message.created_at.to_s(:without_second)}" %></p>
+  <div class ="text">
+    <p><%= "#{message.content}" %></p>
+    <%= javascript_pack_tag 'messages' %>
+  </div>
+</div>

@@ -1,0 +1,130 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ body.main {
+    position: relative;
+    background-image: url(/main_back_image.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+    overflow: scroll;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+body.mainroom1 {
+    position: relative;
+    background-image: url(/BvsD.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+    overflow: scroll;
+    height: 100vh;
+  }
+
+body.mainroom2 {
+    position: relative;
+    background-image: url(/AvsJ.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+    overflow: scroll;
+    height: 100vh;
+  }
+
+body.mainroom3 {
+    position: relative;
+    background-image: url(/MCvsR.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+    overflow: scroll;
+    height: 100vh;
+  }
+
+body.subroom {
+    position: relative;
+    background-image: url(/main_back_image.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+    overflow: scroll;
+    height: 100vh;
+  }
+
+div.color{
+      background-color: rgba(255, 255, 255,0.8);
+      border-radius: 20px 20px 20px 20px;
+      margin-top: 50px;
+      padding: 30px 40px 20px 40px;
+  }
+
+div.textcolor{
+    color:black;
+  }
+
+.bolder{
+    font-weight: bolder
+  }
+
+.whitetext{
+    color:white;
+    font-size: 70px;
+    font-weight: bolder;
+    font-family:"Arial Black";
+    padding-top: 60px;
+    text-shadow:1px 1px 0 black, -1px -1px 0 black,
+    -1px 1px 0 black, 1px -1px 0 black,
+    0px 1px 0 black,  0-1px 0 black,
+    -1px 0 0 black, 1px 0 0 black;
+
+  }
+
+.redtext{
+    color:red
+  }
+
+.logosize{
+    font-size: 20px;
+    font-weight: bolder
+  }
+
+.text{
+    font-size: 25px;
+    word-wrap: break-word;
+    box-sizing:border-box;
+    border:none;
+    width: 100%;
+  }
+
+.center{
+    margin:  0 auto;
+  }
+
+.footercenter{
+    text-align: center;
+    padding-top: 10px;
+  }
