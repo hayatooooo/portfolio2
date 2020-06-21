@@ -1,9 +1,9 @@
 <% if @room.id==1 %> 
   <body class="mainroom1">
   <% elsif  @room.id==2 %>
-    <body class="mainroom2">
+  <body class="mainroom2">
   <% elsif  @room.id==3 %>
-    <body class="mainroom3">
+  <body class="mainroom3">
   <% else %>
   <body class="subroom">
 <% end %>
@@ -14,7 +14,7 @@
         <%= render @messages %>
       </div>
     </div>
-  </div></br> 
+  </div></br></br>
   <footer class="footer fixed-bottom" style="background: rgba(255,255,255,0.8);">
     <div class="footercenter">
       <%= label nil, nil, 'Enterキーを押してね！(※空白NG)　' %>
