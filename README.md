@@ -1,24 +1,27 @@
-# README
+# リアルタイムチャットになります。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# 開発環境
 
-Things you may want to cover:
+windows10　×　Ubuntu(Windows Subsystem for Linux)　×　Visual Studio Code　×　heroku
 
-* Ruby version
+# 以下、機能になります。
 
-* System dependencies
+・Log in機能(devise gem 使用。名前とパスワードのみの簡易ログインに修正。)
+・Talk room作成機能
+・ActionCableを利用した双方向通信
 
-* Configuration
+# 以下、Javascript,Jquery使用箇所になります。
 
-* Database creation
+・Log inページ　アニメーション
+・Sign upページ　SVGを利用したアイコン
+・Chatページ　メッセージ投稿時の自動スクロール
 
-* Database initialization
+# 以下、テストユーザーになります。
 
-* How to run the test suite
+サンプルユーザー1  
+  name: 勇人 
+  password: password  
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+・サンプルユーザー2
+  name: 慎太郎 
+  password: password  
