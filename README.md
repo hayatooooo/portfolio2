@@ -2,7 +2,7 @@
 
 # 開発環境
 
-windows10　×　Ubuntu(Windows Subsystem for Linux)　×　Visual Studio Code　×　heroku
+Windows10　×　Ubuntu(Windows Subsystem For Linux)　×　Heroku
 
 # 以下、機能になります。
 
