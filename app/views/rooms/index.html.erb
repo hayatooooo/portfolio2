@@ -3,7 +3,7 @@
     <div class="col-md-6 align-self-center color center">
       <h1 class="container footercenter">
       <i class="fa fa-fire"></i> <i class="fa fa-soccer-ball-o"></i>
-      MATCH DAY 
+      MATCH DAY
       <i class="fa fa-soccer-ball-o"></i> <i class="fa fa-fire"></i>
       </h1>
       <ul></br>
@@ -14,15 +14,15 @@
         <% end %>
       </ul></br>
       <div class="footercenter">
-      <h8>新規トークルームはコチラ(※空白、30文字以上NG) </h8></br></br>
+      <h8>新規Roomはコチラ(※空白、30文字以上NG) </h8></br></br>
       <%= form_with model: @room do |f| %>
-        <%= f.label :Roomname%>
+        <%= f.label :Room%>
         <%= f.text_field :name, :size=>"40" %></br></br>
         <%= f.submit class:"btn btn-primary " %>
       <% end %></br>
       </div>
       <ul>
-      <% if !Room.find_by(id: 4).nil? %>  
+      <% if !Room.find_by(id: 4).nil? %>
         <% @rooms[3..9999].each do |room| %>
           <div data-turbolinks="false">
           <li class="list"><%= link_to room.name, room_path(room) %></li>
