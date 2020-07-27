@@ -25,24 +25,29 @@
       <% end %><br/>
       <%= render "devise/shared/links" %>
     </div>
-    <div class="col-md-5 align-self-center center "> 
-    <li>
-      <svg class="circle" height="200" viewBox="0 0 58 58" width="200" xmlns="http://www.w3.org/2000/svg">
-        <g fill-rule="evenodd" fill="none">
-          <g stroke-width="0.7" stroke="rgba(255, 255, 255,0.8)" transform="translate(2 1)">
-            <circle cx="42.601" cy="11.462" fill-opacity="0" fill="#BAD3FF	" r="5"></circle>
-            <circle cx="49.063" cy="27.063" fill-opacity="0" fill="#8EB8FF" r="5"></circle>
-            <circle cx="42.601" cy="42.663" fill-opacity="0" fill="#75A9FF	" r="5"></circle>
-            <circle cx="27" cy="49.125" fill-opacity="0" fill="#2C7CFF" r="5"></circle>
-            <circle cx="11.399" cy="42.663" fill-opacity="0" fill="#136FFF" r="5"></circle>
-            <circle cx="4.938" cy="27.063" fill-opacity="0" fill="#005FFF" r="5"></circle>
-            <circle cx="11.399" cy="11.462" fill-opacity="0" fill="#0000FF" r="5"></circle>
-            <circle cx="27" cy="5" fill-opacity="0" fill="#000080" r="5"></circle>
+    <div class="col-md-5 align-self-center center ">
+      <li>
+        <!--200×200のエリアのうち、(x,y)が(0,0)の地点から58×58のエリアを表示-->
+        <!--xmlns→そのタグがどの名前空間に所属するか-->
+        <svg class="circle" height="200" viewBox="0 0 58 58" width="200" xmlns="http://www.w3.org/2000/svg">
+          <!--fill-rule→図形の内側とされる領域を決定-->
+          <!--fill→グラフィックス要素の内部への塗り-->
+          <g fill-rule="evenodd" fill="none">
+            <g stroke-width="0.7" stroke="rgba(255, 255, 255,0.8)" transform="translate(2 1)">
+              <circle cx="42.601" cy="11.462" fill-opacity="0" fill="#BAD3FF	" r="5"></circle>
+              <circle cx="49.063" cy="27.063" fill-opacity="0" fill="#8EB8FF" r="5"></circle>
+              <circle cx="42.601" cy="42.663" fill-opacity="0" fill="#75A9FF	" r="5"></circle>
+              <circle cx="27" cy="49.125" fill-opacity="0" fill="#2C7CFF" r="5"></circle>
+              <circle cx="11.399" cy="42.663" fill-opacity="0" fill="#136FFF" r="5"></circle>
+              <circle cx="4.938" cy="27.063" fill-opacity="0" fill="#005FFF" r="5"></circle>
+              <circle cx="11.399" cy="11.462" fill-opacity="0" fill="#0000FF" r="5"></circle>
+              <circle cx="27" cy="5" fill-opacity="0" fill="#000080" r="5"></circle>
+            </g>
           </g>
-        </g>
-      </svg>
-    </li>
-    <%= javascript_pack_tag 'circle' %>
+        </svg>
+      </li>
+      <!--SVGアニメーション-->
+      <%= javascript_pack_tag 'circle' %>
     </div>
   </div>
 </body>

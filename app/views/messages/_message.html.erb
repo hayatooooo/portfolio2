@@ -1,7 +1,9 @@
 <div class="message">
+  <!--日本時間にして表示。configで定義。-->
   <p><%= "#{message.user.name} : #{message.created_at.to_s(:without_second)}" %></p>
-  <div class ="text">
+  <div class="text">
     <p><%= "#{message.content}" %></p>
-    <%= javascript_pack_tag 'messages' %>
+    <!--自動スクロール-->
+    <%= javascript_pack_tag "messages" %>
   </div>
 </div>

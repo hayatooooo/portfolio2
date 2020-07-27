@@ -2,11 +2,14 @@
   <div class="row bolder textcolor">
     <div class="col-md-6 align-self-center color center">
       <h1 class="container footercenter">
-      <i class="fa fa-fire"></i> <i class="fa fa-soccer-ball-o"></i>
-      MATCH DAY
-      <i class="fa fa-soccer-ball-o"></i> <i class="fa fa-fire"></i>
+        <!--font-awesome-->
+        <i class="fa fa-fire"></i> <i class="fa fa-soccer-ball-o"></i>
+        MATCH DAY
+        <!--font-awesome-->
+        <i class="fa fa-soccer-ball-o"></i> <i class="fa fa-fire"></i>
       </h1>
       <ul></br>
+        <!--注目試合を事前にトークルーム作成し表示-->
         <% @rooms.first(3).each do |room| %>
           <div data-turbolinks="false">
             <li class="list"><%= link_to room.name, room_path(room) %></li>
@@ -14,12 +17,13 @@
         <% end %>
       </ul></br>
       <div class="footercenter">
-      <h8>新規Roomはコチラ(※空白、30文字以上NG) </h8></br></br>
-      <%= form_with model: @room do |f| %>
-        <%= f.label :Room%>
-        <%= f.text_field :name, :size=>"40" %></br></br>
-        <%= f.submit class:"btn btn-primary " %>
-      <% end %></br>
+        <!--新規トークルームの作成-->
+        <h8>新規Roomはコチラ(※空白、30文字以上NG) </h8></br></br>
+        <%= form_with model: @room do |f| %>
+          <%= f.label :Room %>
+          <%= f.text_field :name, :size=>"40" %></br></br>
+          <%= f.submit class: "btn btn-primary" %>
+        <% end %></br>
       </div>
       <ul>
       <% if !Room.find_by(id: 4).nil? %>

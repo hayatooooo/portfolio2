@@ -1,10 +1,10 @@
-<% if @room.id==1 %> 
+<% if @room.id == 1 %>
   <body class="mainroom1">
-  <% elsif  @room.id==2 %>
+<% elsif  @room.id == 2 %>
   <body class="mainroom2">
-  <% elsif  @room.id==3 %>
+<% elsif  @room.id == 3 %>
   <body class="mainroom3">
-  <% else %>
+<% else %>
   <body class="subroom">
 <% end %>
   <div class="row bolder textcolor">
@@ -17,8 +17,9 @@
   </div></br></br>
   <footer class="footer fixed-bottom" style="background: rgba(255,255,255,0.8);">
     <div class="footercenter">
-      <%= label nil, nil, 'Enterキーを押してね！(※空白NG)　' %>
-      <%= text_field nil, nil, 'data-behavior': 'room_speaker', :size => "150" %>
+      <%= label nil, nil, "Enterキーを押してね！(※空白NG)　" %>
+      <!--jsに送信-->
+      <%= text_field nil, nil, "data-behavior": "room_speaker", :size => "150" %>
     </div>
   </footer>
-</body> 
+</body>

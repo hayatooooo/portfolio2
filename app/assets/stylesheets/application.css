@@ -15,125 +15,124 @@
  */
 
  body.main {
-    position: relative;
-    background-image: url(/main_back_image.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: #000;
-    overflow: scroll;
-    height: 100vh;
-    overflow: hidden;
-  }
+  position: relative;
+  background-image: url(/main_back_image.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #000;
+  overflow: scroll;
+  height: 100vh;
+  overflow: hidden;
+}
 
 body.mainroom1 {
-    position: relative;
-    background-image: url(/BvsD.png);
-    background-position: ce000nter center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: #000;
-    overflow: scroll;
-    height: 100vh;
-  }
+  position: relative;
+  background-image: url(/BvsD.png);
+  background-position: ce000nter center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #000;
+  overflow: scroll;
+  height: 100vh;
+}
 
 body.mainroom2 {
-    position: relative;
-    background-image: url(/AvsJ.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: #000;
-    overflow: scroll;
-    height: 100vh;
-  }
+  position: relative;
+  background-image: url(/AvsJ.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #000;
+  overflow: scroll;
+  height: 100vh;
+}
 
 body.mainroom3 {
-    position: relative;
-    background-image: url(/MCvsR.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: #000;
-    overflow: scroll;
-    height: 100vh;
-  }
+  position: relative;
+  background-image: url(/MCvsR.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #000;
+  overflow: scroll;
+  height: 100vh;
+}
 
 body.subroom {
-    position: relative;
-    background-image: url(/main_back_image.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: #000;
-    overflow: scroll;
-    height: 100vh;
-  }
+  position: relative;
+  background-image: url(/main_back_image.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #000;
+  overflow: scroll;
+  height: 100vh;
+}
 
-div.color{
-      background-color: rgba(255, 255, 255,0.8);
-      border-radius: 20px 20px 20px 20px;
-      margin-top: 50px;
-      padding: 30px 40px 20px 40px;
-  }
+div.color {
+  background-color: rgba(255, 255, 255,0.8);
+  border-radius: 20px 20px 20px 20px;
+  margin-top: 50px;
+  padding: 30px 40px 20px 40px;
+}
 
-div.textcolor{
-    color:#000;
-  }
+div.textcolor {
+  color:#000;
+}
 
-.bolder{
-    font-weight: bolder
-  }
+.bolder {
+  font-weight: bolder
+}
 
-.whitetext{
-    color:#FFF;
-    font-size: 45px !important;
-    font-weight: bolder;
-    font-family:"Arial Black";
-    padding-top: 50px;
-    text-shadow:1px 1px 0 #000, -1px -1px 0 #000,
-    -1px 1px 0 #000, 1px -1px 0 #000,
-    0px 1px 0 #000,  0-1px 0 #000,
-    -1px 0 0 #000, 1px 0 0 #000;
+.whitetext {
+  color:#FFF;
+  font-size: 45px !important;
+  font-weight: bolder;
+  font-family:"Arial Black";
+  padding-top: 50px;
+  text-shadow:1px 1px 0 #000, -1px -1px 0 #000,
+  -1px 1px 0 #000, 1px -1px 0 #000,
+  0px 1px 0 #000,  0-1px 0 #000,
+  -1px 0 0 #000, 1px 0 0 #000;
+}
 
-  }
+.redtext {
+  color:#F00;
+}
 
-.redtext{
-    color:#F00;
-  }
-
-.textsize{
+.textsize {
   font-size: 70px !important;
 }
 
-.logosize{
-    font-size: 20px;
-    font-weight: bolder
-  }
+.logosize {
+  font-size: 20px;
+  font-weight: bolder
+}
 
-.text{
-    font-size: 25px;
-    word-wrap: break-word;
-    box-sizing:border-box;
-    border:none;
-    width: 100%;
-  }
+.text {
+  font-size: 25px;
+  word-wrap: break-word;
+  box-sizing:border-box;
+  border:none;
+  width: 100%;
+}
 
-.center{
-    margin:  0 auto;
-  }
+.center {
+  margin:  0 auto;
+}
 
-.footercenter{
-    text-align: center;
-    padding-top: 10px;
-  }
+.footercente {
+  text-align: center;
+  padding-top: 10px;
+}
 
-.list{
+.list {
   font-size: 17px;
   margin-bottom: 20px;
 }
