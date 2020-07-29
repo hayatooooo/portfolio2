@@ -13,7 +13,7 @@ module ApplicationCable
     #deviseはwardenのラッパー
     #session情報はenv[warden]オブジェクト。このオブジェクトを用いて、認証を行うことができる。
     def find_verified_user
-      verified_user = User.find_by(id: env['warden'].user.id)
+      verified_user = User.find_by(id: env["warden"].user.id)
       return reject_unauthorized_connection unless verified_user
       verified_user
     end
